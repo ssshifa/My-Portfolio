@@ -1,0 +1,96 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 80px;
+  gap: 20px;
+}
+
+.logo {
+  color: #FD6F00;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+.cv-button {
+  background-color: #FD6F00;
+  padding: 8px 15px;
+  
+}
+
+.banner {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  padding: 0px 80px;
+  gap: 80px;
+  margin: 0;
+
+}
+
+
+.banner-content{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
+  line-height: 0.5;
+}
+
+
+.highlight{
+  color: #FD6F00;
+}
+
+
+
+
+
+.banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image img {
+  height: 300px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
